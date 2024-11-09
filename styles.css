@@ -195,19 +195,30 @@ a:hover {
     margin-top: 10px;
 }
 
-/* Video y Audio - Acomodar de forma flexible */
-#video-presentacion, #audio-presentacion {
-    display: flex;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    align-items: center; /* Centra el contenido verticalmente */
-    margin-top: 20px;
+/* Estilo para Imagen de Perfil */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
 }
 
-.video, audio {
+/* Estilo para Video */
+.video {
     width: 100%;
-    max-width: 600px; /* Limita el tamaño máximo */
-    margin: 10px 0; /* Añade un margen entre los elementos */
+    max-width: 600px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Estilo para Audio */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
 
 /* Footer */
 footer {
