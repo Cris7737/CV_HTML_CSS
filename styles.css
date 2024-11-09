@@ -7,8 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f8fa;
-    color: #333;
+    background-color: #F4F7FA;
+    color: #333333;
     line-height: 1.6;
     padding: 20px;
 }
@@ -16,17 +16,16 @@ body {
 /* Contenedor principal */
 .container {
     max-width: 1200px;
-    /* Aumenta el ancho del contenedor */
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 header {
     text-align: center;
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: white;
     padding: 20px 0;
     border-radius: 8px 8px 0 0;
@@ -49,10 +48,10 @@ header p {
 /* Títulos de Sección */
 .section-title {
     font-size: 1.8em;
-    color: #4CAF50;
+    color: #009688;
     margin: 20px 0 10px;
     padding-bottom: 5px;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 2px solid #E0E0E0;
 }
 
 /* Diseño en dos columnas para las secciones */
@@ -79,13 +78,13 @@ header p {
 }
 
 h3 {
-    color: #4CAF50;
+    color: #007BFF;
     font-size: 1.2em;
 }
 
 p {
     margin: 5px 0;
-    color: #555;
+    color: #555555;
 }
 
 .skills ul {
@@ -94,8 +93,8 @@ p {
 }
 
 .skills li {
-    background-color: #e8f5e9;
-    color: #333;
+    background-color: #E0F2F1;
+    color: #333333;
     padding: 8px;
     margin: 5px 0;
     border-radius: 4px;
@@ -103,7 +102,7 @@ p {
 
 /* Links */
 a {
-    color: #4CAF50;
+    color: #007BFF;
     text-decoration: none;
 }
 
@@ -121,7 +120,7 @@ a:hover {
 .contact-form label {
     font-weight: bold;
     margin-top: 10px;
-    color: #4CAF50;
+    color: #009688;
 }
 
 .contact-form input[type="text"],
@@ -142,8 +141,8 @@ a:hover {
 .contact-form button {
     margin-top: 15px;
     padding: 10px;
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: #007BFF;
+    color: #ffffff;
     border: none;
     border-radius: 4px;
     font-size: 1em;
@@ -151,7 +150,7 @@ a:hover {
 }
 
 .contact-form button:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
 }
 
 /* Estilo para la sección de certificaciones */
@@ -173,7 +172,7 @@ a:hover {
 }
 
 .certifications-table th {
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: white;
     font-weight: bold;
 }
@@ -184,15 +183,6 @@ a:hover {
 
 .certifications-table tr:hover {
     background-color: #e0f7fa;
-}
-
-/* Estilo para Imagen de Perfil */
-.profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-top: 10px;
 }
 
 /* Estilo para Imagen de Perfil */
@@ -219,13 +209,12 @@ audio {
     margin-top: 10px;
 }
 
-
 /* Footer */
 footer {
     text-align: center;
     padding: 15px;
     font-size: 0.9em;
-    color: #777;
+    color: #777777;
 }
 
 /* Responsive Design */
