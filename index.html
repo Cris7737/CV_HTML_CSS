@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Encabezado -->
+        <header>
+            <h1>Nombre Completo</h1>
+            <p>Profesión o Título</p>
+            <p>Email: ejemplo@correo.com | Teléfono: 123-456-7890 | Ciudad, País</p>
+        </header>
+
+        <!-- Sección de Perfil -->
+        <section class="section" id="perfil">
+            <h2 class="section-title">Perfil</h2>
+            <img src="ruta/a/imagen-perfil.jpg" alt="Foto de Perfil" class="profile-image">
+            <p>Descripción breve sobre ti, tus objetivos profesionales y tus competencias principales.</p>
+        </section>
+
+        <!-- Video de Presentación -->
+        <section class="section" id="video-presentacion">
+            <h2 class="section-title">Video de Presentación</h2>
+            <video controls class="video">
+                <source src="ruta/a/video-presentacion.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </section>
+
+        <!-- Audio de Presentación -->
+        <section class="section" id="audio-presentacion">
+            <h2 class="section-title">Audio de Presentación</h2>
+            <audio controls>
+                <source src="ruta/a/audio-presentacion.mp3" type="audio/mpeg">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+        </section>
+
+        <!-- Secciones en Dos Columnas -->
+        <div class="two-columns">
+            <!-- Columna 1: Experiencia Laboral -->
+            <section class="section column" id="experiencia">
+                <h2 class="section-title">Experiencia Laboral</h2>
+                <div class="experience">
+                    <h3>Nombre de la Empresa</h3>
+                    <p><em>Cargo - Fecha Inicio - Fecha Fin</em></p>
+                    <p>Descripción breve de tus responsabilidades y logros en esta posición.</p>
+                </div>
+                <div class="experience">
+                    <h3>Nombre de la Empresa</h3>
+                    <p><em>Cargo - Fecha Inicio - Fecha Fin</em></p>
+                    <p>Descripción breve de tus responsabilidades y logros en esta posición.</p>
+                </div>
+            </section>
+
+            <!-- Columna 2: Educación -->
+            <section class="section column" id="educacion">
+                <h2 class="section-title">Educación</h2>
+                <div class="education">
+                    <h3>Institución Educativa</h3>
+                    <p><em>Grado/Título - Año de Finalización</em></p>
+                </div>
+                <div class="education">
+                    <h3>Institución Educativa</h3>
+                    <p><em>Grado/Título - Año de Finalización</em></p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Sección de Habilidades -->
+        <section class="section" id="habilidades">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills">
+                <ul>
+                    <li>Habilidad 1</li>
+                    <li>Habilidad 2</li>
+                    <li>Habilidad 3</li>
+                    <li>Habilidad 4</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="section" id="contacto">
+            <h2 class="section-title">Contacto</h2>
+            <p>Email: ejemplo@correo.com</p>
+            <p>Teléfono: 123-456-7890</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/usuario" target="_blank">linkedin.com/in/usuario</a></p>
+
+            <!-- Formulario de contacto -->
+            <form action="procesar_formulario.php" method="post" class="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Sección de Certificaciones -->
+        <section class="section" id="certificaciones">
+            <h2 class="section-title">Certificaciones</h2>
+            <table class="certifications-table">
+                <thead>
+                    <tr>
+                        <th>Certificación</th>
+                        <th>Institución</th>
+                        <th>Año</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Certificación en Desarrollo Web</td>
+                        <td>Instituto XYZ</td>
+                        <td>2022</td>
+                        <td>Certificación en desarrollo de sitios web modernos.</td>
+                    </tr>
+                    <tr>
+                        <td>Certificación en Data Science</td>
+                        <td>Universidad ABC</td>
+                        <td>2021</td>
+                        <td>Curso avanzado de ciencia de datos y análisis de big data.</td>
+                    </tr>
+                    <tr>
+                        <td>Certificación en Ciberseguridad</td>
+                        <td>Centro de Tecnología 123</td>
+                        <td>2023</td>
+                        <td>Curso de seguridad informática y protección de datos.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Pie de página -->
+        <footer>
+            <p>© 2024 Nombre Completo. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
+
